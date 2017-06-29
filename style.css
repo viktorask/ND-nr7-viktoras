@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body div {
+    margin: auto;
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+body div div {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+
+}
+
+input {
+    margin: 3px;
+    font-size: 12px;
+
+}
+
+#text, #input {
+    padding: 0;
+}
+
+form #text {
+    float: left;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+#search {
+    clear: both;
+    text-align: center;
+}
+
+#text {
+    text-align: right;
+    font-weight: bold;
+
+}
+
+#input {
+    text-align: left;
+
+}
+
+#text p {
+    margin: 5.5px;
+    padding: 2px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nd nr7 Viktoras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+    <div>
+        <form>
+            <div id="text">
+                <p>Title</p>
+                <p>Name</p>
+                <p>Phone number</p>
+                <p>Email address</p>
+                <p>Your website</p>
+                <p>Nr. of items to order</p>
+                <p>Length</p>
+                <p>Delivery date</p>
+                <p>Time of delivery</p>
+                <p>Color of the item</p>
+            </div>
+            <div id="input">
+                <input type="text" name="Title" placeholder="Select one of enter your own" required><br>
+                <input type="text" name="Name" placeholder="John Doe" required><br>
+                <input type="tel" name="tel" placeholder="+1 23456789"> (optional)<br>
+                <input type="email" name="email" value="add@sdggd" required><br>
+                <input type="url" name="website" placeholder="www.yoursite.com">(optional)<br>
+                <input type="number" name="quantity" value="6" min="1" max="10" required> (1-10) <br>
+                <input type="range" name="Length" value="25" required> 1m (in 10cm increments)<br>
+                <input type="date" name="bday" value="275760-06-27" min="2010-12-16" required> (minimum 16 December
+                2010)<br>
+                <input type="time" name="time" value="21:00" step="1800" required> (in 30min increments)<br>
+                <input type="color" name="color" value="#ed1c24" required> (default red)<br><br>
+                <input type="submit" value="Submit"> <br>
+            </div>
+        </form>
+    </div>
+    <div>
+        <form>
+            <div id="search">
+            <strong>Search</strong> <input type="search" name="search">
+            <input type="submit" value="Go"> <br>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
